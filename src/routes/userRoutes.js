@@ -11,5 +11,5 @@ userRouter.post(
   userController.signUp
 );
 userRouter.post("/login",userController.userLogin);
-
+userRouter.get("/all", userController.getAllUsers);
 export default userRouter
